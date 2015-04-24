@@ -3,11 +3,14 @@ block head
   link(rel="stylesheet" type="text/css" href="special-contact-form.css")
   style.
     .no-visibility {visibility:hidden}
+    .special-contact-form {opacity: 0.5}
+    .notice {padding: 20px; background: #fee3ab; }
   title MOState ACM - Contact
 
 block body
   .text-center
     h2 Contact us
+  .notice Our contact form is a work in progress. For now, please email us at <a href="mailto:mostateacm@gmail.com">MOStateACM@gmail.com</a>
   form.special-contact-form(method="post" action="contact" target="InvisibleIframe")
     span Hello MOState ACM,
     br
