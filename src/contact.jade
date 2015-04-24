@@ -1,0 +1,32 @@
+extend site-layout.extend
+block head
+  link(rel="stylesheet" type="text/css" href="special-contact-form.css")
+  style.
+    .no-visibility {visibility:hidden}
+  title MOState ACM - Contact
+
+block body
+  form.special-contact-form(method="post" action="contact" target="InvisibleIframe")
+    h2 Say hi
+    span Hello MOState ACM,
+    br
+    span My name is
+    input(name="name" placeholder="James Bond" size=14)
+    span . I'm a
+    select(name="im")
+      option(value="student") student
+      option(value="friend") friend
+      option(value="recruiter") recruiter
+      option(value="developer") developer
+    span &nbsp;from
+    input(name="from" placeholder="this awesome organization" size=23)
+    span , and I want to&nbsp;
+    input(name="body" placeholder="come speak at a meeting..." size=28)
+    span &nbsp;Let me know what you think by emailing me at
+    input(name="email" placeholder="email@gmail.com")
+    span .
+    br
+    .send-btn
+      button(type="submit") Send
+  
+  iframe.no-visibility(width=0 height=0 name="InvisibleIframe")
