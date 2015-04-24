@@ -8,7 +8,7 @@ html
     block head
 
   body
-    a.header(href="index.html")
+    a.header(href="index.html" title="Link to homepage" alt="Link to homepage")
       h1 MOState ACM
       small Missouri State Association for Computing Machinery
       .text-center
@@ -18,12 +18,15 @@ html
       nav
         ul
           li
-            a(href="contact.html" alt="Say hi") Contact us
+            a(href="about-us.html" alt="About us") About us
             | ,
           li
-            a(href="https://github.com/MOStateACM" alt="MOState ACM Github Organization") Github
+            a(href="contact.html" alt="Contact us") Contact us
             | ,
           li
-            a(href="https://www.facebook.com/pages/MOState-ACM/377941325724120" alt="MOState ACM Facebook page") Facebook
+            a(href="https://github.com/MOStateACM" alt="MOState ACM Github Organization" target="_blank") Github
+            | ,
+          li
+            a(href="https://www.facebook.com/pages/MOState-ACM/377941325724120" alt="MOState ACM Facebook page" target="_blank") Facebook
       a(href="https://www.google.com/calendar/render?action=SUBSCRIBE&cid=mostateacm@gmail.com#i" target="_blank" alt="Subscribe to our Google Calendar") Subscribe to our Google Calendar
       block footer
