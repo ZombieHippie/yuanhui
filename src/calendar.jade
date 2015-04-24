@@ -1,0 +1,26 @@
+extend site-layout.extend
+block head
+  link(rel="stylesheet" type="text/css" href="special-contact-form.css")
+  style.
+    .no-visibility {visibility:hidden}
+    .special-contact-form {opacity: 0.5}
+    .notice {padding: 20px; background: #fee3ab; }
+    dt { font-weight: bold; }
+  title MOState ACM - About us
+
+block body
+  .text-center
+    h2 Calendar
+  iframe(src="https://www.google.com/calendar/embed?src=mostateacm%40gmail.com&ctz=America/Chicago"
+    style="border: 0" width="100%" height="600" frameborder="0" scrolling="no")
+  .text-center
+    | (Calendar ID:  mostateacm@gmail.com)
+    br
+    a(target="_blank" href="https://www.google.com/calendar/feeds/mostateacm%40gmail.com/public/basic")
+      img(src="images/xml.gif")
+    | &nbsp;
+    a(target="_blank" href="https://www.google.com/calendar/ical/mostateacm%40gmail.com/public/basic.ics")
+      img(src="images/ical.gif")
+    | &nbsp;
+    a(target="_blank" href="https://www.google.com/calendar/embed?src=mostateacm%40gmail.com&amp;ctz=America/Chicago")
+      img(src="images/html.gif")
