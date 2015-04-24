@@ -16,6 +16,13 @@ a.header h1 {
 footer {
   text-align: center;
   display: block;
+  position: relative;
+}
+.text-center >img,
+.header >img,
+footer >img {
+  max-height: 100%;
+  max-width: 100%;
 }
 h1,
 h2 {
