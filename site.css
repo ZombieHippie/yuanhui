@@ -36,6 +36,9 @@ a {
 .list-unstyled {
   list-style: none;
 }
+.no-padding {
+  padding: 0;
+}
 ul {
   margin: 0;
 }
