@@ -1,61 +1,12 @@
 body
-  //background #fefede
-  background whitesmoke
-  max-width 40em
+  background #FFFEFA
+  max-width 78em
   margin 0 auto
   position relative
-  padding 0 1em
-a.header
-  background transparent
-  color rgba(0,0,0,0.8)
-  h1
-    font-size 32px
-    font-weight bold
+  padding 4em
 
-.text-center, .header, footer
-  text-align center
-  display: block
-  position relative
-  >img
-    max-height 90vh
-    max-width 100%
-
-h1, h2, h3, h4
-  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-  margin-top: 1em
-  letter-spacing: -0.02em;
-  font-weight: 700;
-  font-style: normal;
-  margin-left: -3px;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  padding-top: 0;
-  margin-bottom: 8px;
-  color: rgba(0,0,0,0.8);
-
-.line-break
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 0;
-  height 2px
-
-footer
-  margin 2em 0
-  padding-top 2em
-  color rgba(0,0,0,0.5)
-  a
-    color rgba(0,0,0,0.5)
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
-  background-repeat: repeat-x;
-  background-size: 2px 2px;
-  background-position: 0 0;
-  ul
-    list-style: none
-    padding: 0
-    display: inline
-    li 
-      display: inline
+h1
+  margin 0
 
 body, input, select, textarea, button
   font-family: "freight-text-pro",Georgia,Cambria,"Times New Roman",Times,serif;
@@ -69,10 +20,26 @@ body, input, select, textarea, button
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   color: rgba(0,0,0,0.8);
-  
+
 a
+  color rgba(0,0,0,0.8)
   text-decoration: none;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
   background-repeat: repeat-x;
   background-size: 2px 2px;
   background-position: 0 23px;
+
+.list-unstyled
+  list-style: none
+
+ul
+  margin 0
+
+dl
+  margin 0
+
+dt
+  font-style italic
+dt::after
+  content "."
+

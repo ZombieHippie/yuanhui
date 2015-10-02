@@ -1,28 +1,26 @@
 extend site-layout.extend
 block head
-  title MOState ACM
-  style.
-    .small-logo { display: none }
-    a.header h1 { font-size: 64px }
-    html {background-image: url(bg.png); background-size: cover;}
-    body {background: transparent}
-    a.header {cursor: default}
+  title CodeRockIT
 
 block body
-  .text-center
-    img(src="logo-bear-pixelated-1.png" alt="computeristic bear head")
-    br
-    p Share your passion for computer science with us.
-  .text-center
-    iframe(width="560" height="315" src="https://www.youtube.com/embed/nKIu9yen5nc" frameborder="0" allowfullscreen)
+  h1 CodeRockIT
   br
-  h2 Workshops
-  .line-break
-  .workshop-video
-    h3 Github - September 3<sup>rd</sup>, 2015
-    .text-center
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/ZYSVmxj4heY" frameborder="0" allowfullscreen)
-  .workshop-video
-    h3 Standing Out - October 1<sup>st</sup>, 2015
-    .text-center
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/Q6pWY_gJ1Zc" frameborder="0" allowfullscreen)
+  dl
+    dt Mission
+    dd To find and empower passionate programmers.
+  br
+  dl
+    dt Team
+    dd: ul.list-unstyled
+      li
+        a(href="#/team/cole-lawrence") Cole Lawrence
+        | : Founder, <em>Missouri State Computer Science Major</em>
+      li
+        a(href="#/team/brandon-mccoy") Brandon McCoy
+        | : Co-founder, <em>Missouri State Finance Major</em>
+      li
+        a(href="#/team/matt-pierzynski") Matt Pierzynski
+        | : Co-founder, <em>Missouri State Computer Science Major</em>
+      li
+        a(href="#/team/cameron-yuan") Cameron Yuan
+        | : Co-founder, <em>Missouri State Computer Science Major</em> and <em>Finance Major</em>
