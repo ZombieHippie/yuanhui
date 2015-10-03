@@ -5,9 +5,9 @@ body {
   position: relative;
   padding: 4em;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   body {
-    padding: 5vw;
+    padding: 10vw;
   }
 }
 h1 {
@@ -44,12 +44,21 @@ a {
 .no-padding {
   padding: 0;
 }
+.rocket {
+  margin: 0.1em;
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  background-image: url("/octicons-rocket.svg");
+  background-size: contain;
+  opacity: 0.8;
+}
 dd {
-  margin-left: 4em;
+  margin-left: 2.5em;
 }
 .hanging-indent>* {
-  text-indent: -4em;
-  padding-left: 4em;
+  text-indent: -2.5em;
+  padding-left: 2.5em;
 }
 ul {
   margin: 0;
@@ -62,4 +71,7 @@ dt {
 }
 dt::after {
   content: ".";
+}
+.text-center {
+  text-align: center;
 }

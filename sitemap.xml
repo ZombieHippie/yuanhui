@@ -3,14 +3,10 @@
   xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>http://mostateacm.org/</loc>
+    <loc>http://coderockit.org/</loc>
     <mobile:mobile/>
     <image:image>
-       <image:loc>http://mostateacm.org/logo-bear-pixelated-1.png</image:loc>
+       <image:loc>http://coderockit.org/octicons-rocket.svg</image:loc>
     </image:image>
-  </url>
-  <url>
-    <loc>http://mostateacm.org/contact.html</loc>
-    <mobile:mobile/>
   </url>
 </urlset>
