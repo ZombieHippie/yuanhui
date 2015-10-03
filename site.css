@@ -5,6 +5,11 @@ body {
   position: relative;
   padding: 4em;
 }
+@media (max-width: 500px) {
+  body {
+    padding: 5vw;
+  }
+}
 h1 {
   margin: 0;
 }
@@ -38,6 +43,13 @@ a {
 }
 .no-padding {
   padding: 0;
+}
+dd {
+  margin-left: 4em;
+}
+.hanging-indent>* {
+  text-indent: -4em;
+  padding-left: 4em;
 }
 ul {
   margin: 0;
