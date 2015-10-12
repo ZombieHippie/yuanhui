@@ -3,7 +3,7 @@ body
   max-width 78em
   margin 0 auto
   position relative
-  padding 4em
+  padding 1em 4em
 
 @media(max-width: 600px)
   body
@@ -26,6 +26,22 @@ body, input, select, textarea, button
   -moz-osx-font-smoothing: grayscale;
   -moz-font-feature-settings: "liga" on;
   color: rgba(0,0,0,0.8);
+
+.rw-font
+  font-family: 'Raleway', sans-serif
+.up
+  text-transform: uppercase
+
+.header
+  text-align: center
+  img
+    width: 2em
+  h1
+    font-size 3.2em
+    line-height 1em
+  p
+    margin 0
+
 
 a
   color rgba(0,0,0,0.8)
@@ -64,6 +80,7 @@ ul
 
 dl
   margin 0
+  margin-top 1em
 
 dt
   font-style italic
@@ -72,3 +89,8 @@ dt::after
 
 .text-center
   text-align center
+
+.teeny-tiny
+  color #0009
+  font-size 10px
+  background-position: 0 9px;

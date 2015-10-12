@@ -3,6 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "suite-to-static": "latest"
+    "suite-to-static": "latest",
+    "babel-loader": "5.3.2",
+    "webpack": "1.12.2",
+    "extract-text-webpack-plugin": "0.8.2",
+    "css-loader": "0.18.0",
+    "jade-loader": "0.7.1",
+    "async": "1.4.2",
+    "stylus-loader": "1.3.0",
+    "url-loader": "0.5.6",
+    "page": "1.6.3"
   }
 }

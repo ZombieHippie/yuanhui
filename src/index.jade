@@ -1,14 +1,33 @@
 extend site-layout.extend
 block head
   title Code Rocket
+  link(href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css')
 
 block body
-  h1 Code Rocket
+  .header
+    img(src="code-rocket-logo.svg")
+    h1.rw-font.up Code Rocket
+    p.rw-font(title="Our mission statement.") To find and empower passionate programmers.
   br
   dl
-    dt Mission
-    dd To find and empower passionate programmers.
-  br
+    dt About
+    dd
+      | Based in <a href="https://www.google.com/maps/place/Springfield,+MO">Springfield, Missouri</a>,
+      | Code Rocket helps teach the community how to become successful programmers and introduce people
+      | to the importance of Computer Science and Information Technology education.
+  dl
+    dt Programs
+    dd
+      | The following events are being developed out for the Spring Semester of 2015;
+      ul
+        li
+          a(href="#/wip/summer-camps") Summer Camps
+          | ,
+        li
+          a(href="#/wip/educational-lectures") Educational Lectures
+          | , and
+        li
+          a(href="#/wip/code-workshops") Workshops
   dl
     dt Team
     dd: ul.list-unstyled.no-padding.hanging-indent
@@ -24,8 +43,11 @@ block body
       li
         a(href="#/team/cameron-yuan") Cameron Yuan
         | : Co-founder, <em>Missouri State Computer Science Major</em> and <em>Finance Major</em>
-  br
   dl
     dt Contact
     dd: a(href="mailto:lawrence0@live.missouristate.edu") Lawrence0@live.MissouriState.edu
   br
+  footer
+    .text-center
+      a.teeny-tiny(href="https://github.com/ZombieHippie/coderocket.org" target="_blank") this page's source code on GitHub
+    script(src="bundle.js" type="text/javascript")
