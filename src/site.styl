@@ -1,12 +1,13 @@
-body
+body 
+  margin: 0
   background #FFFEFA
+.page
   max-width 78em
   margin 0 auto
   position relative
   padding 1em 4em
-
 @media(max-width: 600px)
-  body
+  .page
     padding 10vw
 
 h1
@@ -27,8 +28,8 @@ body, input, select, textarea, button
   -moz-font-feature-settings: "liga" on;
   color: rgba(0,0,0,0.8);
 
-.rw-font
-  font-family: 'Raleway', sans-serif
+.b-font
+  font-family: 'Bangers', sans-serif
 .up
   text-transform: uppercase
 
@@ -42,6 +43,19 @@ body, input, select, textarea, button
   p
     margin 0
 
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  max-width: 500px;
+  max-height: 500px;
+}
 
 a
   color rgba(0,0,0,0.8)
@@ -85,7 +99,7 @@ dl
 dt
   font-style italic
 dt::after
-  content "."
+  content ","
 
 .text-center
   text-align center
